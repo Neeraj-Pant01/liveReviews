@@ -1,0 +1,73 @@
+
+@media screen and (max-width:440px) {
+    .REVIEW{
+        width: 90%;
+        /* border: 2px solid red; */
+        margin-top: 20px;
+        display: flex;
+        padding: 10px 0px;
+        flex-direction: column;
+        background-color: white;
+        border-radius: 10px;
+    }
+    .review-top{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* padding:10px; */
+        gap: 10px;
+    }
+    .review-top b{
+        width: 100%;
+        /* border: 2px solid black; */
+        padding-left: 20px;
+        box-sizing: border-box;
+    }
+    .product-image{
+        width: 80%;
+        position: relative;
+    }
+    .product-image img{
+        width: 100%;
+    }
+    .review-bottom{
+        padding: 0px 20px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 10px;
+    }
+    .stars-wrap{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    .allstars{
+        display: flex;
+        gap: 10px;
+        color: goldenrod;
+        font-size: 18px;
+    }
+    .review-bottom p{
+        color: grey;
+        font-size: 15px;
+    }
+    .likecounter{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-top: 10px;
+    }
+    .likes, .dislikes{
+        display: flex;
+        align-items: center;
+        font-weight: bolder;
+        font-size: 18px;
+        gap: 4px;
+    }
+    .thumb{
+        cursor: pointer;
+    }
+}

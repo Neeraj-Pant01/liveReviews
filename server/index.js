@@ -4,6 +4,7 @@ const cors = require("cors")
 const connection = require("./db/connection")
 const authroute = require("./routes/auth.route")
 const userRoute = require("./routes/user.routes")
+const reviewRoute = require("./routes/reviews.route")
 
 const app = express()
 app.use(express.json())
@@ -18,6 +19,7 @@ app.use((err,req,res,next) =>{
 
 app.use('/api/v1/auth', authroute)
 app.use('/api/v1/users',userRoute)
+app.use('/api/v1/reviews',reviewRoute)
 
 const PORT = process.env.PORT || 4000;
 
