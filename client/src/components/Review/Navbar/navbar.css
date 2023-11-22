@@ -8,4 +8,32 @@
     padding: 10px;
     min-height: 40px;
     z-index: 99;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-left{
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.nav-mid{
+    display: flex;
+    align-items: center;
+    border: 1px solid red;
+    font-size: 14px;
+}
+.nav-mid span{
+    cursor: pointer;
+}
+.nav-right{
+    display: flex;
+    align-items: center;
+}
+.nav-right img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid grey;
 }

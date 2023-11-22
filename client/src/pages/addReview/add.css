@@ -40,7 +40,7 @@
         width: 100%;
         background-color: black;
         background-color: lightgray;
-        height: calc(100vh - 140px);
+        height: calc(100vh - 80px);
       }
       .addreview h4{
         color: black;

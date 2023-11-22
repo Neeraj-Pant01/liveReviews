@@ -4,7 +4,13 @@ import "./navbar.css"
 const Navbar = () => {
   return (
     <div className='nav'>
-      this is nav
+      <div className="nav-left">LIVEREVIEWS.</div>
+      <div className="nav-mid">
+        <b>ADDREVIEW</b>
+      </div>
+      <div className="nav-right">
+        <img src='/image.png' />
+      </div>
     </div>
   )
 }
